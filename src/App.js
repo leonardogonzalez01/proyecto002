@@ -1,17 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {Provider} from 'react-redux';
-import store from './store/store';
-import Users from "./Users";
-import User from "./User";
+import store from './store/store'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+import Home from "./views/Home";
 function App() {
   return (
     <Provider store={store}>
       <Router>
         <Switch>
-          <Route exact={true} path='/' component={Users}/>
-          <Route exact={true} path='/user/:id' component={User}/>
+          <Route exact={true} path='/' component={Home}/>
         </Switch>
       </Router>
     </Provider>

@@ -9,6 +9,7 @@ import {
 } from "./const";
 
 export default function (state = initialState, action) {
+  //debugger;
   switch (action.type) {
     case GET_EPISODES_INIT: {
       return {
@@ -19,7 +20,8 @@ export default function (state = initialState, action) {
     case GET_EPISODES_SUCCESS: {
       return {
         ...state,
-        episodes: action.payload,
+        episodes: action.payload.results,
+        info: action.payload.info,
         episodesLoading: false,
         episodesError: false,
       }
@@ -41,7 +43,8 @@ export default function (state = initialState, action) {
     case GET_EPISODE_SUCCESS: {
       return {
         ...state,
-        episode: action.payload,
+        episode: action.payload.results,
+        info: action.payload.info,
         episodeLoading: false,
         episodeError: false,
       }

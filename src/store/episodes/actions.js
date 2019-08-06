@@ -1,11 +1,5 @@
-import {
-  GET_EPISODE_ERROR,
-  GET_EPISODE_INIT,
-  GET_EPISODE_SUCCESS,
-  GET_EPISODES_ERROR,
-  GET_EPISODES_INIT,
-  GET_EPISODES_SUCCESS
-} from "./const";
+import { GET_EPISODE_ERROR,GET_EPISODE_INIT,GET_EPISODE_SUCCESS,GET_EPISODES_ERROR,GET_EPISODES_INIT,GET_EPISODES_SUCCESS} from "./const";
+
 import {getEpisode, getEpisodes} from "./server";
 
 export const getEpisodesAction = url => {
@@ -18,6 +12,12 @@ export const getEpisodesAction = url => {
     })
   }
 };
+
+
+
+
+
+
 
 export const getEpisodeAction = id => {
   return dispatch => {

@@ -1,0 +1,7 @@
+.my-marketplace-header{
+    background-color: gray;
+}
+
+.my-marketplace-header h1, a{
+    color: white;
+}

@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {getUsersAction} from "./store/users/actions";
 
 const Users = props => {
+
   useEffect(()=> {
     props.getUsersComponent('https://jsonplaceholder.typicode.com/users/')
   },[]);
