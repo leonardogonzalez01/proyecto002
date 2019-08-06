@@ -18,7 +18,7 @@ export const getEpisodesAction = url => {
 
 
 
-
+/*
 export const getEpisodeAction = id => {
   return dispatch => {
     dispatch({type: GET_EPISODE_INIT});
@@ -28,4 +28,4 @@ export const getEpisodeAction = id => {
       dispatch({type: GET_EPISODE_ERROR})
     })
   }
-};
+};*/

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {connect} from 'react-redux';
 import { MDBBtn, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 
@@ -7,7 +7,8 @@ import Episode from "./Episode";
 import Loading from "../../commons/Loading/Loading";
 
 const Episodes = props => {
-console.log(props.info);
+
+
     useEffect(()=> {
         props.getEpisodesComponent('https://rickandmortyapi.com/api/episode/')
     },[]);
@@ -20,6 +21,13 @@ console.log(props.info);
     }
 
     const handleClickVerMas = () => {
+        console.log(props.info.next);
+        if(props.info.next===''){
+            alert('No hay mas Episodios');
+        }else{
+            props.getEpisodesComponent(props.info.next);
+        }
+
 
     };
     console.log(props.info);

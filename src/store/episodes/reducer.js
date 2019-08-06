@@ -20,7 +20,7 @@ export default function (state = initialState, action) {
     case GET_EPISODES_SUCCESS: {
       return {
         ...state,
-        episodes: action.payload.results,
+        episodes: state.episodes.concat(action.payload.results),
         info: action.payload.info,
         episodesLoading: false,
         episodesError: false,
@@ -34,7 +34,7 @@ export default function (state = initialState, action) {
         episodesError: true,
       }
     }
-    case GET_EPISODE_INIT: {
+    /*case GET_EPISODE_INIT: {
       return {
         ...state,
         episodeLoading: true
@@ -56,7 +56,7 @@ export default function (state = initialState, action) {
         episodeLoading: false,
         episodeError: true,
       }
-    }
+    }*/
     default: {
       return state
     }
