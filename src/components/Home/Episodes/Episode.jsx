@@ -4,7 +4,7 @@ const Episode = (props) => {
     const {episode} = props;
 
     return (
-        <tr className='hero_css'>
+        <tr>
             <td>{episode.id}</td>
             <td>{episode.name}</td>
             <td>{episode.episode}</td>

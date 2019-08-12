@@ -4,9 +4,11 @@ import Nav from "../Nav/Nav";
 
 const Header = () => {
     return (
+        <div>
         <Container>
             <Nav/>
         </Container>
+        </div>
     );
 };
 

@@ -1,19 +1,14 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import store from './store/store'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Rutas from "./views/Rutas";
 
-import Home from "./views/Home";
 function App() {
-  return (
-    <Provider store={store}>
-      <Router>
-        <Switch>
-          <Route exact={true} path='/' component={Home}/>
-        </Switch>
-      </Router>
-    </Provider>
-  );
+    return (
+        <Provider store={store}>
+            <Rutas/>
+        </Provider>
+    );
 }
 
 export default App;

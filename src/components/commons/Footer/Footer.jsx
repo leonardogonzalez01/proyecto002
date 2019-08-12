@@ -1,15 +1,18 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {Functions} from "../../../assets/Functions";
 
 const Footer = () => {
+    const usuarioLog = Functions.getUser();
     return (
+        <>
         <MDBFooter color="blue" className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Desarrollado Por Leonardo Gonzalez:</h5>
+                        <h5 className="title">Usuario Logueado: {usuarioLog}</h5>
                         <p>
-                            Desafio: Rutas y estructura de un proyecto
+                            Proyecto Final
                         </p>
                     </MDBCol>
                     <MDBCol md="6">
@@ -34,6 +37,7 @@ const Footer = () => {
                 </MDBContainer>
             </div>
         </MDBFooter>
+        </>
     );
 }
 

@@ -1,16 +1,12 @@
 import React from 'react';
-import Header from "../components/commons/Header/Header";
-import Footer from "../components/commons/Footer/Footer";
-import {MDBContainer} from 'mdbreact';
-import Episodes from "../components/Home/Episodes/Episodes";
+import Layout from '../components/commons/Layout/Layout';
 
 const Home = () => {
     return (
-        <MDBContainer>
-            <Header/>
-<Episodes/>
-            <Footer/>
-        </MDBContainer>
+        <Layout>
+
+            hola, soy el home
+        </Layout>
     );
 };
 

@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {connect} from 'react-redux';
 import { MDBBtn, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
-
 import {getEpisodesAction} from '../../../store/episodes/actions';
 import Episode from "./Episode";
 import Loading from "../../commons/Loading/Loading";
@@ -9,9 +8,12 @@ import Loading from "../../commons/Loading/Loading";
 const Episodes = props => {
 
 
-    useEffect(()=> {
-        props.getEpisodesComponent('https://rickandmortyapi.com/api/episode/')
-    },[]);
+        useEffect(()=> {
+            if(props.episodes.length===0) {
+                props.getEpisodesComponent('https://rickandmortyapi.com/api/episode/')
+            }
+        },[]);
+
 
     if (props.episodesLoading) {
         return <Loading/>
@@ -22,6 +24,7 @@ const Episodes = props => {
 
     const handleClickVerMas = () => {
         console.log(props.info.next);
+
         if(props.info.next===''){
             alert('No hay mas Episodios');
         }else{
@@ -30,12 +33,12 @@ const Episodes = props => {
 
 
     };
-    console.log(props.info);
     return (
-        <MDBTable title="Lista Herpoes">
+<div>
+        <MDBTable>
             <MDBTableHead>
                 <tr>
-                    <th>#</th>
+                    <th>Id</th>
                     <th>Nombre</th>
                     <th>Episodio</th>
                     <th>Salida al Aire</th>
@@ -46,7 +49,7 @@ const Episodes = props => {
             </MDBTableBody>
             <MDBBtn onClick={handleClickVerMas} color="primary">Ver Mas</MDBBtn>
         </MDBTable>
-
+</div>
     );
 };
 

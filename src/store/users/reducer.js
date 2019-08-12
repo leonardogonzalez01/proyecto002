@@ -1,8 +1,6 @@
 import {initialState} from "./initialState";
 import {
-  GET_USER_ERROR,
-  GET_USER_INIT,
-  GET_USER_SUCCESS,
+  ADD_USERS,
   GET_USERS_ERROR,
   GET_USERS_INIT,
   GET_USERS_SUCCESS
@@ -14,12 +12,14 @@ export default function (state = initialState, action) {
       return {
         ...state,
         usersLoading: true
+
       }
     }
     case GET_USERS_SUCCESS: {
       return {
         ...state,
-        users: action.payload,
+       users: state.users.concat(action.payload),
+        //users: action.payload,
         usersLoading: false,
         usersError: false,
       }
@@ -30,28 +30,6 @@ export default function (state = initialState, action) {
         users: state.users,
         usersLoading: false,
         usersError: true,
-      }
-    }
-    case GET_USER_INIT: {
-      return {
-        ...state,
-        userLoading: true
-      }
-    }
-    case GET_USER_SUCCESS: {
-      return {
-        ...state,
-        user: action.payload,
-        userLoading: false,
-        userError: false,
-      }
-    }
-    case GET_USER_ERROR: {
-      return {
-        ...state,
-        user: state.users,
-        userLoading: false,
-        userError: true,
       }
     }
     default: {
