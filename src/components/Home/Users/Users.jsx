@@ -5,7 +5,6 @@ import {getUsersAction} from '../../../store/users/actions';
 import User from "./User";
 import Loading from "../../commons/Loading/Loading";
 
-
 const Users = (props) => {
     useEffect(() => {
         if (props.users.length === 0) {
@@ -13,17 +12,19 @@ const Users = (props) => {
         }
     }, []);
 
-
     if (props.usersLoading) {
         return <Loading/>
     }
     if (props.usersError) {
         return <div>Es un error...</div>
     }
+    const usersList = props.users;
+    const userFavorito = usersList.find(favoriteEpisodes => favoriteEpisodes === '3');
+    console.log(userFavorito);
+    debugger;
     return (
         <div>
             <MDBTable>
-
                 <MDBTableHead>
                     <tr>
                         <th>Id</th>
@@ -45,7 +46,6 @@ const mapStateToProps = state => ({
     usersError: state.users.usersError
 });
 
-debugger;
 const mapDispatchToPros = dispatch => ({
     getUsersComponent: payload => dispatch(getUsersAction(payload))
 });

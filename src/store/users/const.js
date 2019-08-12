@@ -1,3 +1,4 @@
 export const GET_USERS_INIT = 'GET_USERS_INIT';
 export const GET_USERS_SUCCESS = 'GET_USERS_SUCCESS';
 export const GET_USERS_ERROR = 'GET_USERS_ERROR';
+export const FILTER_USERS = 'FILTER_USERS';

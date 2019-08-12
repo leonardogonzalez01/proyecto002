@@ -1,53 +1,49 @@
-import React, {useEffect} from 'react';
-import {connect} from 'react-redux';
-import {MDBTable, MDBTableBody, MDBTableHead} from 'mdbreact';
-import {getUsersAction} from '../../../store/users/actions';
-import User from "./User";
-import Loading from "../../commons/Loading/Loading";
+import React from 'react';
+import {Col, Row} from "react-bootstrap";
+import axios from "axios";
+import {Functions} from '../../../../src/assets/Functions';
+import {UserFavorite} from "./UserFavorite";
 
+const ListUsers = (props) => {
 
-const Users = (props) => {
-    useEffect(() => {
-        if (props.users.length === 0) {
-            props.getUsersComponent('http://localhost:3000/users')
+    const [iniPage, setIniPage] = React.useState(false);
+    const [listUsers, setListUsers] = React.useState([]);
+
+    const getUsers = () => {
+        const userAuth = Functions.getUser();
+        axios.get(`http://localhost:3000/users`).then(response => {
+            const users = response.data.filter(item => item.id !== userAuth.id);
+            debugger;
+            const likesUsers = users.map(item => {
+                const sim = Functions.compareArrays(item.favoriteEpisodes, userAuth.favoriteEpisodes);
+                const sim2 = Functions.compareArrays(item.favoriteCharacters, userAuth.favoriteCharacters);
+                return {...item, episodesLike: (sim.length > 0), charactersLike: (sim2.length > 0)}
+            });
+
+            setListUsers(likesUsers);
+            setIniPage(true);
+        }).catch(error => {
+            //Tools.notify("error", "No es posible obtener los usuarios");
+        });
+    };
+
+    React.useEffect(() => {
+        if (listUsers.length === 0 && !iniPage) {
+            getUsers();
         }
-    }, []);
+    }, [iniPage, listUsers]);
 
-
-    if (props.usersLoading) {
-        return <Loading/>
-    }
-    if (props.usersError) {
-        return <div>Es un error...</div>
-    }
-    return (
-        <div>
-            <MDBTable>
-
-                <MDBTableHead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Nombre</th>
-                        <th>Email</th>
-                    </tr>
-                </MDBTableHead>
-                <MDBTableBody>
-                    {props.users.map(user => <User key={user.id} user={user}/>)}
-                </MDBTableBody>
-            </MDBTable>
-        </div>
+      return (
+        <Row>
+            {
+                (listUsers.length > 0) ?
+                    listUsers.map(item =>
+                        <UserFavorite key={item.id} data={item}/>
+                    )
+                    : <Col md={12} className={'text-center'}><h2>Sin usuarios...</h2></Col>
+            }
+        </Row>
     );
 };
 
-const mapStateToProps = state => ({
-    users: state.users.users,
-    usersLoading: state.users.usersLoading,
-    usersError: state.users.usersError
-});
-
-debugger;
-const mapDispatchToPros = dispatch => ({
-    getUsersComponent: payload => dispatch(getUsersAction(payload))
-});
-
-export default connect(mapStateToProps, mapDispatchToPros)(Users);
+export default ListUsers;

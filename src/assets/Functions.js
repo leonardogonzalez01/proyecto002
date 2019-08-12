@@ -29,6 +29,15 @@ export const Functions = {
             return {id: null, name: "Invitado"};
         }
     },
+    setUser2: (objeto) => {
+        try {
+            localStorage.setItem('userAuth', JSON.stringify(objeto));
+            const userSave = JSON.parse(localStorage.getItem('userAuth'));
+            return userSave === objeto;
+        } catch (e) {
+            return false;
+        }
+    },
     setUser: (user) => {
      try {
          localStorage.setItem('userAuth',user);
@@ -37,7 +46,18 @@ export const Functions = {
      } catch (e) {
          return false;
      }
- }
+ },
+    compareArrays: (arr1, arr2) => {
+        let ret = [];
+        arr1.sort();
+        arr2.sort();
+        for (let i = 0; i < arr1.length; i++) {
+            if (arr2.indexOf(arr1[i]) > -1) {
+                ret.push(arr1[i]);
+            }
+        }
+        return ret;
+    }
    /* setUser: (objeto) => {
         try {
             localStorage.setItem('userAuth', JSON.stringify(objeto));

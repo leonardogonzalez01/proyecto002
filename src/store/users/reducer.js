@@ -1,6 +1,6 @@
 import {initialState} from "./initialState";
 import {
-  ADD_USERS,
+  FILTER_USERS,
   GET_USERS_ERROR,
   GET_USERS_INIT,
   GET_USERS_SUCCESS
@@ -8,6 +8,26 @@ import {
 
 export default function (state = initialState, action) {
   switch (action.type) {
+    /*ase FILTER_USERS: {
+      const userLogin = localStorage.getItem('authUser')
+      return {
+        ...state,
+        users: state.users.map(item => {
+          if (
+              (item.tipo.toUpperCase().trim().indexOf(userLogin) !== -1)
+          )
+          {
+            return {
+              ...item
+            }
+          } else {
+            return {
+              ...item
+            }
+          }
+        })
+      }
+    }*/
     case GET_USERS_INIT: {
       return {
         ...state,

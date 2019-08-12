@@ -2,55 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26c0d30-cce7-4368-b602-a4182546c28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/LeonardoGonzalez.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Characters/Character.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Characters/CharacterCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Characters/Characters.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Users/ListUsers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Users/User.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Users/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Logout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserRegister/UserRegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Controls/Input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Layout/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/PrivateRoute/PrivateRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/characters/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/characters/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/characters/initialState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/characters/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/characters/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/login/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/login/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/login/initialState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/login/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Episodios.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Personajes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RegistroUsuarios.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Rutas.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Usuarios.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Users/UserFavorite.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/LeonardoGonzalez.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/LeonardoGonzalez.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Episodes/Episode.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Episodes/Episode.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Episodes/Episodes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Episodes/Episodes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Loading/Loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Loading/Loading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Nav/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/episodes/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/episodes/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/episodes/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/episodes/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/episodes/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/episodes/initialState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/episodes/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/episodes/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/users/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Users/ListUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Users/ListUsers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/users/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/users/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users/initialState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/users/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/users/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Usuarios.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Usuarios.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +28,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/RegistroUsuarios.jsx">
+        <entry file="file://$PROJECT_DIR$/db.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="-369">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Rutas.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="109" lean-forward="true" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -83,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Home/Users/Users.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="510">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -93,19 +63,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
+        <entry file="file://$PROJECT_DIR$/src/views/Usuarios.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/Functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Users.jsx" />
-        <option value="$PROJECT_DIR$/src/components/commons/Api/Urlepisode.jsx" />
         <option value="$PROJECT_DIR$/src/store/episodes/server.js" />
         <option value="$PROJECT_DIR$/src/store/characters/server.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Episodes/Episode.jsx" />
@@ -167,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/store/characters/actions.js" />
         <option value="$PROJECT_DIR$/src/store/characters/reducer.js" />
         <option value="$PROJECT_DIR$/src/store/episodes/reducer.js" />
-        <option value="$PROJECT_DIR$/src/views/Usuarios.jsx" />
         <option value="$PROJECT_DIR$/src/components/commons/Controls/Input.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Characters/Character.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Characters/CharacterCard.jsx" />
@@ -186,19 +147,22 @@
         <option value="$PROJECT_DIR$/src/components/commons/Nav/Nav.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Episodes/Episodes.jsx" />
         <option value="$PROJECT_DIR$/src/store/users/actions.js" />
-        <option value="$PROJECT_DIR$/src/store/users/const.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Users/User.jsx" />
         <option value="$PROJECT_DIR$/src/store/users/initialState.js" />
         <option value="$PROJECT_DIR$/src/store/users/server.js" />
         <option value="$PROJECT_DIR$/src/views/Rutas.jsx" />
-        <option value="$PROJECT_DIR$/src/store/users/reducer.js" />
         <option value="$PROJECT_DIR$/src/views/ListUsers.jsx" />
         <option value="$PROJECT_DIR$/src/components/UserRegister/UserRegisterForm.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Login/Login.jsx" />
-        <option value="$PROJECT_DIR$/src/assets/Functions.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/Users/Users.jsx" />
         <option value="$PROJECT_DIR$/src/components/commons/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/store/users/const.js" />
+        <option value="$PROJECT_DIR$/src/assets/leo.jsx" />
+        <option value="$PROJECT_DIR$/src/store/users/reducer.js" />
+        <option value="$PROJECT_DIR$/src/assets/Functions.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/Users/UserFavorite.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Users/ListUsers.jsx" />
+        <option value="$PROJECT_DIR$/src/views/Usuarios.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Login/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/Users/Users.jsx" />
       </list>
     </option>
   </component>
@@ -216,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,70 +192,19 @@
               <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -340,16 +251,18 @@
       <workItem from="1565446246182" duration="10286000" />
       <workItem from="1565544567669" duration="2044000" />
       <workItem from="1565546738422" duration="17068000" />
+      <workItem from="1565625282056" duration="1083000" />
+      <workItem from="1565633387267" duration="10090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52627000" />
+    <option name="totallyTimeSpent" value="63800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22080536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26719198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +280,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22379604" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22341858" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -415,23 +328,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/store/characters/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/characters/initialState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/characters/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -534,23 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserRegister/UserRegister.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserRegister/UserRegister.jsx" />
     <entry file="file://$PROJECT_DIR$/src/store/episodes/initialState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -688,16 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Usuarios.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Episodios.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -719,80 +589,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/users/const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ListUsers.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/users/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/users/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Rutas.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ListUsers.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/UserRegister/UserRegisterForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/Functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RegistroUsuarios.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -807,20 +610,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/RegistroUsuarios.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/users/const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/users/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/leo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="42" selection-start-line="42" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/users/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Users/ListUsers.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/Functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Users/UserFavorite.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Usuarios.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Rutas.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="109" lean-forward="true" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Users/Users.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="510">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -40,51 +40,47 @@ const Login = props => {
         })
     };
 
-    useEffect(()=> {
-            props.getUsersComponent('http://localhost:3000/login')
-    },[]);
+    useEffect(() => {
+        props.getUsersComponent('http://localhost:3000/login')
+    }, []);
 
 
     const handlerOnClick = async () => {
         const rs = await axios.get("http://localhost:3000/users");
         const users = rs.data;
-        let userLogin = null;
+        const dato = users.find(users => users.name === userForm.name);
+        if (dato) {
+            let userLogin = null;
+            axios.get("http://localhost:3000/login").then(response => {
+                const token = response.data.token;
+                if (token.length < 10) {
+                    alert("Error al obtener token de acceso");
+                    return false;
+                }
+                alert("Login correcto");
+                Functions.setToken(token);
+                Functions.setUser2(userForm);
+                /*Functions.setUser({
+                    id: userLogin.id,
+                    name: userLogin.name,
+                    favoriteEpisodes: userLogin.favoriteEpisodes,
+                    episodesWatched: userLogin.episodesWatched,
+                    favoriteCharacters: userLogin.favoriteCharacters,
+                });*/
+                window.location.href = "/";
+            }).catch(error => {
+                alert("error" + error.message);
+            });
+        } else {
+            alert("Usuario no Existe!!!");
+        }
 
-        axios.get("http://localhost:3000/login").then(response => {
-            const token = response.data.token;
-            //setLoading(false);
-            if (token.length < 10) {
-                alert("Error al obtener token de acceso");
-                return false;
-            }
-
-            alert("Login correcto");
-            Functions.setToken(token);
-            Functions.setUser(userForm.name);
-            /*Functions.setUser({
-                id: userLogin.id,
-                name: userLogin.name,
-                favoriteEpisodes: userLogin.favoriteEpisodes,
-                episodesWatched: userLogin.episodesWatched,
-                favoriteCharacters: userLogin.favoriteCharacters,
-            });*/
-            console.log('login correcto');
-            window.location.href = "/";
-        }).catch(error => {
-            alert("error"+ error.message);
-           // setLoading(false);
-        });
     };
-
-
 
 
     const handlerOnClickRegister = () => {
         props.history.push(`/userregisterform`)
     };
-
-
-
 
 
     return (
@@ -95,14 +91,16 @@ const Login = props => {
                         <MDBCardBody>
                             <MDBCardHeader className="form-header deep-blue-gradient rounded">
                                 <h3 className="my-3">
-                                    <MDBIcon icon="lock" /> Login:
+                                    <MDBIcon icon="lock"/> Login:
                                 </h3>
                             </MDBCardHeader>
                             <form>
                                 <div className="grey-text">
                                     <br></br>
-                                    <Input value={userForm.name} onChange={handlerOnChange} name={'name'} text={'User'} type='text'/>
-                                    <Input value={userForm.email} onChange={handlerOnChange} name={'email'} text={'Email'} type='text'/>
+                                    <Input value={userForm.name} onChange={handlerOnChange} name={'name'} text={'User'}
+                                           type='text'/>
+                                    <Input value={userForm.email} onChange={handlerOnChange} name={'email'}
+                                           text={'Email'} type='text'/>
                                 </div>
 
                                 <div className="text-center mt-4">
