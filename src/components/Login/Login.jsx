@@ -48,8 +48,8 @@ const Login = props => {
     const handlerOnClick = async () => {
         const rs = await axios.get("http://localhost:3000/users");
         const users = rs.data;
-        const dato = users.find(users => users.name === userForm.name);
-        if (dato) {
+        const datoUser = users.find(users => users.name === userForm.name);
+        if (datoUser) {
             let userLogin = null;
             axios.get("http://localhost:3000/login").then(response => {
                 const token = response.data.token;
@@ -59,14 +59,13 @@ const Login = props => {
                 }
                 alert("Login correcto");
                 Functions.setToken(token);
-                Functions.setUser2(userForm);
-                /*Functions.setUser({
-                    id: userLogin.id,
-                    name: userLogin.name,
-                    favoriteEpisodes: userLogin.favoriteEpisodes,
-                    episodesWatched: userLogin.episodesWatched,
-                    favoriteCharacters: userLogin.favoriteCharacters,
-                });*/
+                Functions.setUser2({
+                    id: datoUser.id,
+                    name: datoUser.name,
+                    favoriteEpisodes: datoUser.favoriteEpisodes,
+                    episodesWatched: datoUser.episodesWatched,
+                    favoriteCharacters: datoUser.favoriteCharacters,
+                });
                 window.location.href = "/";
             }).catch(error => {
                 alert("error" + error.message);
