@@ -10,7 +10,7 @@ const Users = (props) => {
 
     useEffect(() => {
         //if (props.users.length === 0) {
-            props.getUsersComponent('http://localhost:3000/users')
+        props.getUsersComponent('http://localhost:3000/users')
         //}
     }, []);
 
@@ -29,9 +29,19 @@ const Users = (props) => {
     let episodioFavorito = usuarioFavorito.find(usuarioFavorito => usuarioFavorito === '3');
     console.log(usuarioFavorito);
     console.log(episodioFavorito);*/
-    let newdata = usersList.filter(usersList => {
-        return usersList.favoriteEpisodes > 0;
-    });
+    /*let episodiosFavoritos = usersList.map(usersList => {
+        return usersList.favoriteEpisodes.map(favoriteEpisodes =>
+        return {favoriteEpisodes: usersList.favoriteEpisodes, name: usersList.name}
+    )
+    });*/
+    let episodiosFavoritos = usersList.map(usersList => {
+     return {episode: usersList.favoriteEpisodes}});
+   /* let episodiosFavoritos = usersList.map(usersList => {
+        return usersList.favoriteEpisodes.map(favoriteEpisodes => {return {favorito: usersList.favoriteEpisodes}})
+    });*/
+   let listaEpisodios = episodiosFavoritos.map(current => current.episode);
+    console.log(episodiosFavoritos);
+    console.log(listaEpisodios);
     return (
         <div>
             <MDBTable>
@@ -40,6 +50,7 @@ const Users = (props) => {
                         <th>Id</th>
                         <th>Nombre</th>
                         <th>Email</th>
+                        <th>Episodios Favoritos</th>
                     </tr>
                 </MDBTableHead>
                 <MDBTableBody>

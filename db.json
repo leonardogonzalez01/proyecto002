@@ -64,35 +64,73 @@
       ]
     },
     {
-      "id": 4
+      "id": 4,
+      "name": "Carlos",
+      "email": "carlos@gmail.com",
+      "favoriteEpisodes": [
+        "17",
+        "23",
+        "30"
+      ],
+      "episodesWatched": [
+        "9",
+        "2",
+        "8"
+      ],
+      "favoriteCharacters": [
+        "14",
+        "5",
+        "1"
+      ]
     },
     {
-      "id": 5
+      "id": 5,
+      "name": "Andres",
+      "email": "Andres@gmail.com",
+      "favoriteEpisodes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "episodesWatched": [
+        "9",
+        "2",
+        "8"
+      ],
+      "favoriteCharacters": [
+        "14",
+        "5",
+        "1"
+      ]
     },
     {
-      "id": 6
+      "id":6 ,
+      "name": "Pedro",
+      "email": "Pedro@gmail.com",
+      "favoriteEpisodes": [
+        "9",
+        "15",
+        "21"
+      ],
+      "episodesWatched": [
+        "9",
+        "2",
+        "8"
+      ],
+      "favoriteCharacters": [
+        "14",
+        "5",
+        "1"
+      ]
     },
-    {
-      "users": "",
-      "id": 7
-    },
-    {
-      "name": "klj",
-      "email": "ljk",
-      "password": "",
-      "favoriteEpisodes": [],
-      "episodesWatched": [],
-      "favoriteCharacters": [],
-      "id": 8
-    },
-    {
+       {
       "name": "leonardo gonzalez lopez",
       "email": "leonardogonzalez@workmate.cl",
       "password": "",
       "favoriteEpisodes": [],
       "episodesWatched": [],
       "favoriteCharacters": [],
-      "id": 9
+      "id": 7
     }
   ]
 }
