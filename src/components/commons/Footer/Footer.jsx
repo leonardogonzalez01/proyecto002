@@ -3,14 +3,14 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import {Functions} from "../../../assets/Functions";
 
 const Footer = () => {
-    const usuarioLog = Functions.getUser();
+
     return (
         <>
         <MDBFooter color="blue" className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Usuario Logueado: {usuarioLog}</h5>
+                        <h5 className="title">Desarrollado por: Leonardo Gonzalez L.</h5>
                         <p>
                             Proyecto Final
                         </p>
